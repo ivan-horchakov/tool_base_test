@@ -10,7 +10,7 @@ environment:
 dependencies:
   tool_base:
     git:
-      url: git://github.com/ivan-horchakov/tool_base.git
+      url: https://github.com/ivan-horchakov/tool_base.git
       ref: master
 #  tool_base:
 #    path: ../tool_base
