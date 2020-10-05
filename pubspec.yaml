@@ -8,11 +8,14 @@ environment:
   sdk: '>=2.4.0 <3.0.0'
 
 dependencies:
-  tool_base: ^1.9.5+3
+  tool_base:
+    git:
+      url: git://github.com/ivan-horchakov/tool_base.git
+      ref: master
 #  tool_base:
 #    path: ../tool_base
   reporting:
-    git: https://github.com/mmcc007/reporting.git
+    git: https://github.com/ivan-horchakov/reporting.git
 #    path: ../reporting
 
 dev_dependencies:
