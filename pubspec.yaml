@@ -16,7 +16,7 @@ dependencies:
 #    path: ../tool_base
   reporting:
     git:
-      url: git://github.com/ivan-horchakov/reporting.git
+      url: https://github.com/ivan-horchakov/reporting.git
       ref: master
 #    path: ../reporting
 
